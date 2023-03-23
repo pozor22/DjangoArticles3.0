@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #000000;
+}
+
+.FirstLine{
+    wight: 1000px;
+    height: 30px;
+}
+
+.SecondLine{
+    wight: 1000px;
+    height: 100px;
+}

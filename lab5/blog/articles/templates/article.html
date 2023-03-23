@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}/static/css/article.css">
+</head>
+<body>
+  <div class="header">
+    <img src="https://sun9-4.userapi.com/impg/E6KwO2Z2Peu7pNL_pVaIRleiMWFpce5QEZZtZA/ThdYoxeWbLw.jpg?size=510x382&quality=96&sign=6f323567413ec52d8142bbc09e25f25e&type=album" />
+  </div>
+  <div class="archive">
+        <div class="AllArticles"><a href="/article/">Все записи:</a></div>
+        <h2 class="post-title">{{ post.title }}</h2>
+        <div class="article-info">
+        <div class="article-author">{{ post.author.username }}</div>
+        <div class="article-created- date">{{ post.created_date }}</div>
+        </div>
+        <p class="article-text">{{ post.get_excerpt }}</p>
+  </div>
+</body>
+</html>
